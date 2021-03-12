@@ -10,7 +10,7 @@ def turkish(str):
 def irish(str):
     vowels= ['A','E','I','O','U','Á','É','Í','Ó','Ú']
     for i in range(len(vowels)):
-        if  str[1] == vowels[i]  and str[0] == str[0].lower():
+        if  str[1] == vowels[i]  and str[0] == str[0].lower() and str[0]=='n' or str[0]=='t':
             str = str.replace(str[1], "-"+str[1])
             print(str.lower())
     else:
