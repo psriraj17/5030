@@ -35,7 +35,7 @@ if __name__ == '__main__':
  str  = input("Enter your String:  " )
  if lang== "Turkish" or lang== "turkish" or lang== "tr":
     turkish(str)
- if lang== "Irish" or lang== "ga" or lang== "irish":
+ if lang== "Irish" or lang== "ga" or lang== "irish" or lang== "ga-IE":
      irish(str)
  if lang== "Greek" or lang== "el" or lang== "greek":
      Greek(str)
